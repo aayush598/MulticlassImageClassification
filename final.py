@@ -1,6 +1,6 @@
 import yaml
 import itertools
-from final import training  
+from training import training  
 
 def load_config(config_file):
     """
