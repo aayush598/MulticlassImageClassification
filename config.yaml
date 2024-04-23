@@ -1,0 +1,35 @@
+datasets:
+  - "D:/soyaleaf/dataset"
+
+categories:
+  - ['Healty','Rust']
+
+img_rename:
+  - "renameyaml"
+
+model_name:
+  - "MobileNetV2"
+
+top_model_name:
+  - "top_model_2"
+
+scheduler_name:
+  - "exponential_decay"
+
+optimizer:
+  - "Adam"
+
+loss_function:
+  - "categorical_crossentropy"
+
+batch_size:
+  - 8
+
+epochs:
+  - 2
+
+model_file_name:
+  - "Models/model1.h5"
+
+tflite_file_name:
+  - "Models/tflite1.tflite"
